@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-const Section = ({ title, textalign = 'left', link, children }) => {
+const Section = ({ title, textalign = 'left', link='', children }) => {
     return (
-        <div>
-            <div>
-                <h2 style={{ textAlign: textalign }}>{title}</h2>
+        <div style={{padding:'30px 20px'}}>
+            <div style={{margin:'30px'}}>
+                <h2 style={{ textAlign: textalign, color:'var(--dark-gray-2)'}}>{title}</h2>
                 <Link to={link.href}
                     style={{ color: 'var(--primary)' }}
                 >{link.tittle}</Link>
