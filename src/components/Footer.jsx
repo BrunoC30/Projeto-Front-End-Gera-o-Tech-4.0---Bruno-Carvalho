@@ -26,14 +26,14 @@ const Footer = () => {
 
     return (
     <div style={{
-        height:'254px',
+        minheight:'254px',
         backgroundColor:'var(--dark-gray)',
         padding:'40px 20px 10px 20px',color:'var(--white)',display:'flex',
         flexDirection:'column'
     }}>
        
         <div className="bloco1"
-            style={{flex:1,display:'flex',justifyContent:'space-around',gap:'20px'}}
+            style={{flex:1,display:'flex',justifyContent:'space-around',gap:'20px',padding:'0 0 40px 0'}}
         >
              <div className="subBloco"
                     style={{width:'300px'}}

@@ -43,8 +43,9 @@ const HomePage = () => {
             <div style={{ display: 'flex', justifyContent: 'center', backgroundColor:'white',
                         position:'relative'
              }}>
-                    <Gallery />
+                    <Gallery/>
                     <Cta>
+                        <div className="textoHero">
                         <p>melhores ofertas personalizadas</p>
                         <h1>Queima de estoque nike</h1>
                         <p>
@@ -52,6 +53,7 @@ const HomePage = () => {
                         </p>
                         <div style={{display:'flex',justifyContent:'center'}}>
                             <BtaoPadrao>Compre já</BtaoPadrao>
+                        </div>
                         </div>
                     </Cta>
             </div>
@@ -95,9 +97,21 @@ const HomePage = () => {
             </Section>
 
             <Section title='Oferta especial'>
-                <img src="https://github.com/digitalcollegebr/projeto-digital-store/blob/main/public/home-slide-5.jpeg?raw=true" alt=""
-                    style={{height:'250px'}}
-                />
+                <div
+                    className="ofertaDestaque"
+                    style={{display:'flex',gap:'20px'}}
+                >
+                    <img src="https://github.com/digitalcollegebr/projeto-digital-store/blob/main/public/home-slide-5.jpeg?raw=true" alt=""
+                        style={{height:'250px'}}
+                    />
+                    <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
+                        <h1>Air Jorda edição de colecionador</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo officia quasi ea quibusdam rerum! Cum dolores ipsum veritatis quas aspernatur aliquid iste voluptatum, suscipit ab optio sunt natus doloribus vitae.
+                        </p>
+                          <BtaoPadrao>Ver Oferta</BtaoPadrao>
+                    </div>
+                </div>
             </Section>
 
         </div>

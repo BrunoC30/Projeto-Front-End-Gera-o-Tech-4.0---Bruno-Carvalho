@@ -9,18 +9,23 @@ export const BtaoPadrao = styled.button`
     width:40%;
     border-Radius:10px;
     padding:3px;
-    height:100%;
+    height:30px;
 `
 
 const Header = () => {
     return (
         <div style={{
+            position:'sticky',
+            top:0,
+            zIndex:1000,
             height: '100px',
             padding: '16px 20px',
             backgroundColor: 'var(--white)', display: 'flex',
             flexDirection: 'column'
         }}>
-            <div style={{
+            <div
+                className="headerContainer" 
+                style={{
                 height: '50px',
                 display: 'flex', alignItems: 'center',
                 gap: '10px', padding: '0 0 12px 0 ', justifyContent: 'space-between'
@@ -50,7 +55,7 @@ const Header = () => {
 
 
 
-                <div className="Login/Cadastro" style={{ display: 'flex', gap: '8px', height: '60%' }}>
+                <div className="LoginCadastro" style={{ display: 'flex', gap: '8px', height: '60%' }}>
                     <button style={{
                         border: 'none', color: 'var(--dark-gray-2)',
                         paddingBottom: '3px',
@@ -64,7 +69,7 @@ const Header = () => {
 
             </div>
 
-            <nav className="Menu">
+            <nav className="NavMenu">
                 <NavLink end className={'menu-link'} to="/">Home</NavLink>
                 <NavLink className={'menu-link'} to='/produtos'>Produtos</NavLink>
                 <NavLink className={'menu-link'} to='/categorias'>Categorias</NavLink>

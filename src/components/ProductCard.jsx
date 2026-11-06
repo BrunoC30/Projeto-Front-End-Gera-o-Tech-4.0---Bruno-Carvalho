@@ -1,11 +1,13 @@
 const ProductCard = ({ nome, image, price, priceDescout }) => {
 
     return (
-        <div style={{
+        <div
+            className="card" 
+            style={{
             display: 'flex',
             flexDirection: 'column',
             height: '320px',
-            width: '260px',
+            width: '230px',
             gap:'20px',
             backgroundColor: 'var(--white)'
         }}>

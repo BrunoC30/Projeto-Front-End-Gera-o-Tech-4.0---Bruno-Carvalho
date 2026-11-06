@@ -29,3 +29,26 @@
   border-bottom: 2px solid var(--primary);
   font-weight: bold;
 }
+
+
+/* Responsividade */
+
+@media (max-width:760px) {
+  .bloco1{
+    flex-direction: column;
+  }
+  .textoHero{
+    font-size: 0.99rem;
+  }
+  .ofertaDestaque{
+    flex-direction: column;
+  }
+  .cta{
+    position: relative;
+  }
+  /* HEADER */
+  .NavMenu,.LoginCadastro,.ContainerSearch{
+    visibility:hidden;
+    position: absolute;
+  }
+}
