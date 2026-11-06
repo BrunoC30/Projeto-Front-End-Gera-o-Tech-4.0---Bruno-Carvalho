@@ -25,7 +25,7 @@ const Gallery = () => {
 
 
     return (
-         <div style={{width:'100%',maxWidth:'1200px'}}>
+         <div style={{width:'100%'}}>
 
             <ImageGallery
                 items={images}

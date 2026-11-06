@@ -2,7 +2,7 @@ import Gallery from "../components/Gallery";
 import styled from 'styled-components';
 import { BtaoPadrao } from "../components/Header";
 import Section from "../components/Section";
-import ProductCard from "../components/ProductCard";
+import ProductListing from "../components/ProductListing";
 
 const HomePage = () => {
 
@@ -17,14 +17,26 @@ const HomePage = () => {
     const Cta = styled.div`
         position:absolute;
         width:40%;
-        height:100%;
+        height:80%;
         left:0;
         padding-left:20px;
         display:flex;
         flex-direction:column;
+        font-size:1.2rem;
         justify-content:center;
         gap:20px;
     `
+    const itens = [];
+
+    for(let i = 0; i<8; i++){
+        const obj = {
+            nome:'sapato',
+            image:'https://github.com/digitalcollegebr/projeto-digital-store/blob/main/public/produc-image-1.jpeg?raw=true',
+            price:'200',
+            priceDescout:'179.99'
+        }
+        itens.push(obj);
+    }
 
     return (
         <div style={{ minHeight: '140vh', backgroundColor: 'var(--light-gray-3)' }}>
@@ -36,7 +48,7 @@ const HomePage = () => {
                         <p>melhores ofertas personalizadas</p>
                         <h1>Queima de estoque nike</h1>
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dolorum corporis rerum laudantium illo vel repudiandae, debitis minus, repellendus aliquid odio quo cumque laboriosam itaque. Animi delectus officia voluptate hic.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dolorum corporis rerum laudantium illo vel repudiandae, debitis minus, repellendus 
                         </p>
                         <div style={{display:'flex',justifyContent:'center'}}>
                             <BtaoPadrao>Compre já</BtaoPadrao>
@@ -72,17 +84,21 @@ const HomePage = () => {
                 </div>
             </Section>
 
-            <Section title='produtos em destaque'>
-            <ProductCard
-                image='https://github.com/digitalcollegebr/projeto-digital-store/blob/main/public/produc-image-3.jpeg?raw=true'
-                price='200'
-                priceDescout='149.9'
-                nome='Tenis'
+            <Section title='produtos em destaque'
+                    link={{title:'Ver mais'}}
             >
-            </ProductCard>       
+                        
+                <ProductListing
+                    listaDeProdutos={itens}
+                ></ProductListing>
 
             </Section>
 
+            <Section title='Oferta especial'>
+                <img src="https://github.com/digitalcollegebr/projeto-digital-store/blob/main/public/home-slide-5.jpeg?raw=true" alt=""
+                    style={{height:'250px'}}
+                />
+            </Section>
 
         </div>
     );
