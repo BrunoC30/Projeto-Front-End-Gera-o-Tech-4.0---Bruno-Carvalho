@@ -10,6 +10,7 @@ export const BtaoPadrao = styled.button`
     border-Radius:10px;
     padding:3px;
     height:30px;
+    cursor:pointer;
 `
 
 const Header = () => {
@@ -73,7 +74,7 @@ const Header = () => {
                 <NavLink end className={'menu-link'} to="/">Home</NavLink>
                 <NavLink className={'menu-link'} to='/produtos'>Produtos</NavLink>
                 <NavLink className={'menu-link'} to='/categorias'>Categorias</NavLink>
-                <NavLink className={'menu-link'} to='/meus-pedidos' >Meus Pedidos</NavLink>
+                <NavLink className={'menu-link'} to='/meus_pedidos' >Meus Pedidos</NavLink>
             </nav>
 
         </div>

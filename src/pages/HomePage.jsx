@@ -46,9 +46,9 @@ const HomePage = () => {
                     <Gallery/>
                     <Cta>
                         <div className="textoHero">
-                        <p>melhores ofertas personalizadas</p>
+                        <p style={{color:'#d3ec78'}}>Melhores ofertas personalizadas</p>
                         <h1>Queima de estoque nike</h1>
-                        <p>
+                        <p style={{color:'var(--dark-gray-2)'}}>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dolorum corporis rerum laudantium illo vel repudiandae, debitis minus, repellendus 
                         </p>
                         <div style={{display:'flex',justifyContent:'center'}}>
@@ -59,9 +59,9 @@ const HomePage = () => {
             </div>
 
             <Section  title='Coleções em destaque'>
-                <div style={{display:'flex',justifyContent:'center',gap:'20px'}}>
+                <div style={{display:'flex',justifyContent:'center',gap:'20px'}} className="destaques" >
                     <img src="https://github.com/digitalcollegebr/projeto-digital-store/blob/main/public/collection-1.png?raw=true" alt=""
-                    style={{width:'30%'}}
+                    style={{width:'30%'}} className="destaqueImg"
                     />
                     <img src="https://github.com/digitalcollegebr/projeto-digital-store/blob/main/public/collection-2.png?raw=true" alt=""
                     style={{width:'30%'}}

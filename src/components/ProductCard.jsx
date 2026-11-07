@@ -4,6 +4,7 @@ const ProductCard = ({ nome, image, price, priceDescout }) => {
         <div
             className="card" 
             style={{
+            cursor:'pointer',
             display: 'flex',
             flexDirection: 'column',
             height: '320px',
