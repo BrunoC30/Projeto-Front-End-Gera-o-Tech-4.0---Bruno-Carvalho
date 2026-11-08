@@ -7,7 +7,7 @@ const ProductListPage = () => {
 
     for (let i = 0; i < 20; i++) {
         const obj = {
-            nome: 'sapato',
+            nome: 'Tênis Nike Revolution 6 Next Nature Masculino',
             image: 'https://github.com/digitalcollegebr/projeto-digital-store/blob/main/public/produc-image-1.jpeg?raw=true',
             price: '200',
             priceDescout: '179.99',

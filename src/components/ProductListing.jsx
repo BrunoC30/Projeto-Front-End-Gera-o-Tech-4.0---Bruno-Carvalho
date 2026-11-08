@@ -1,7 +1,6 @@
 import ProductCard from "../components/ProductCard";
 
 const ProductListing = ({listaDeProdutos}) => {
-    console.log(listaDeProdutos[0].key)
     return ( 
         <div style={{
             display:'flex',flexWrap:'wrap',gap:'20px',

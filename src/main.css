@@ -55,10 +55,20 @@
     width: 90% !important;
   }
   /* HEADER */
+  /*
   .NavMenu,.LoginCadastro,.ContainerSearch,.filtro{
     visibility:hidden;
     position: absolute;
   }
-    
-
+    */
+    /* VIEW DIVISOR*/
+    .viewDivisor{
+      flex-direction: column;
+    }
+    .imgView{
+      width: 100% !important;
+    }
+    .buyboxView{
+      width: 90% !important;
+    }
 }
