@@ -1,5 +1,5 @@
 import Gallery from "../components/Gallery";
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import { BtaoPadrao } from "../components/Header";
 import Section from "../components/Section";
 import ProductListing from "../components/ProductListing";
@@ -33,7 +33,8 @@ const HomePage = () => {
             nome:'sapato',
             image:'https://github.com/digitalcollegebr/projeto-digital-store/blob/main/public/produc-image-1.jpeg?raw=true',
             price:'200',
-            priceDescout:'179.99'
+            priceDescout:'179.99',
+            key: crypto.randomUUID()
         }
         itens.push(obj);
     }

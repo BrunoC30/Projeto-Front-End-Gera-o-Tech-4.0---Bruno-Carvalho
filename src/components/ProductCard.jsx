@@ -1,7 +1,9 @@
-const ProductCard = ({ nome, image, price, priceDescout }) => {
+import { Link } from "react-router-dom";
+const ProductCard = ({ nome, image, price, priceDescout , productKey}) => {
 
     return (
-        <div
+        <Link to={`/produto/id:${productKey}`}
+            key={productKey}
             className="card" 
             style={{
             cursor:'pointer',
@@ -30,11 +32,11 @@ const ProductCard = ({ nome, image, price, priceDescout }) => {
                     <p>
                         ${priceDescout}
                     </p>
-                   
+             
                 </div>
             </div>
 
-        </div>
+        </Link>
     );
 }
 

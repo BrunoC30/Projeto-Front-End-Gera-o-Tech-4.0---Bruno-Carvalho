@@ -10,7 +10,8 @@ const ProductListPage = () => {
             nome: 'sapato',
             image: 'https://github.com/digitalcollegebr/projeto-digital-store/blob/main/public/produc-image-1.jpeg?raw=true',
             price: '200',
-            priceDescout: '179.99'
+            priceDescout: '179.99',
+            key: crypto.randomUUID()
         }
         itens.push(obj);
     }
