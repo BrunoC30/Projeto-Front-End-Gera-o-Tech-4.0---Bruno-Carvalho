@@ -57,6 +57,13 @@ input[type="radio"] {
   .cta{
     position: relative;
   }
+  .txtHero1{
+    visibility:hidden;
+  }
+  .txtHero2{
+    visibility: visible !important;
+    position: static !important;
+  }
 
   .destaques{
     align-items: center;
@@ -66,12 +73,19 @@ input[type="radio"] {
     width: 90% !important;
   }
   /* HEADER */
-  /*
-  .NavMenu,.LoginCadastro,.ContainerSearch,.filtro{
-    visibility:hidden;
-    position: absolute;
+  .MainHeader{
+    visibility: hidden;
+    overflow: hidden;
+    position: absolute !important;
+    width: 40px !important;
   }
-    */
+
+  .HeaderMobile{
+    visibility: visible;
+    z-index: 1000 !important;
+    position: sticky !important;
+  }
+
     /* VIEW DIVISOR*/
     .viewDivisor{
       flex-direction: column;
