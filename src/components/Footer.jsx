@@ -42,6 +42,11 @@ const Footer = () => {
                  <p style={{fontSize:'0.9rem',color:'var(--light-gray)'}}>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel rem beatae assumenda eum, dignissimos modi, nostrum maxime sint eos rerum culpa molestias similique commodi, quasi blanditiis officia nam sapiente soluta.
                  </p>
+                 <div style={{display:'flex',gap:'10px',paddingTop:'10px'}}>
+                    <img src="https://raw.githubusercontent.com/digitalcollegebr/projeto-digital-store/154c105f9b1a127fb30ca797a224a9a301439ed5/assets/facebook.svg"  />
+                    <img src="https://raw.githubusercontent.com/digitalcollegebr/projeto-digital-store/154c105f9b1a127fb30ca797a224a9a301439ed5/assets/instagram.svg"  />
+                    <img src="https://raw.githubusercontent.com/digitalcollegebr/projeto-digital-store/154c105f9b1a127fb30ca797a224a9a301439ed5/assets/twitter.svg"  />
+                 </div>
              </div>
             <BlocoFooter titulo='Informação' lista={informacoes}/>
             <BlocoFooter titulo='Categorias' lista={categorias}/>
@@ -53,7 +58,7 @@ const Footer = () => {
         <div
             style={{height:'40px',display:'flex',justifyContent:'center'}}
         >
-            <p>creditos . . .</p>
+            <p>@ 2022 Digital College</p>
         </div>
 
     </div>

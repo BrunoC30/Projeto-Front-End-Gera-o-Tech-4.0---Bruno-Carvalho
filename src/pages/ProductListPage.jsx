@@ -19,15 +19,18 @@ const ProductListPage = () => {
     return (
         <div style={{ minHeight: '140vh', display: 'flex' }} >
             <div style={{ width: '70%',height:'300px', padding: '30px 0 0 30px',position:'sticky',top:100}} className="filtro">
-                <GroupSection></GroupSection>
+                <GroupSection className='filtroList'></GroupSection>
             </div>
             <div>
-                <div style={{ display: 'flex', justifyContent: 'flex-end', marginRight:'30px'}}>
-                    <select name="Ordem" style={{ width: '220px',height:'30px'}}>
+                <div className="filterContainer" style={{ display: 'flex', justifyContent: 'flex-end', marginRight:'30px'}}>
+                    <select name="Ordem" style={{ width: '220px',height:'40px'}}>
                         <option value="teste1">Preço: Mais barato</option>
                         <option value="teste2">Preço: Mais caro</option>
-                        <option value="teste3">teste3</option>
                     </select>
+                    <button className='filterMobile' style={{backgroundColor:'var(--primary)',border:'none',width:'50px',
+                        borderRadius:'6px',cursor:'pointer'}}> 
+                        <img src="./src/assets/filter.png"/>
+                    </button>
                 </div>
                 <Section>
                     <ProductListing

@@ -12,7 +12,7 @@ export const BtaoPadrao = styled.button`
     height:30px;
     cursor:pointer;
 `
-export const HeaderMobile = () => {
+export const HeaderMobile = ({ executarFunc }) => {
     return (<>
         <div className="HeaderMobile" style={{
             position: 'absolute',
@@ -32,9 +32,9 @@ export const HeaderMobile = () => {
                     display: 'flex', alignItems: 'center',
                     gap: '10px', padding: '0 0 12px 0 ', justifyContent: 'space-between'
                 }}>
-                    <button
-                        style={{border:'none',fontSize:'1.6rem',backgroundColor:'var(--white)'}}
-                    ><p>☰</p></button>
+                <button onClick={executarFunc}
+                    style={{ border: 'none', fontSize: '1.6rem', backgroundColor: 'var(--white)', cursor: 'pointer' }}
+                ><p>☰</p></button>
                 <Logo tipo='header' />
 
                 <img src="./src/assets/search.svg" alt=""
