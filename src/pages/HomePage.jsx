@@ -7,7 +7,7 @@ import ProductListing from "../components/ProductListing";
 const TextHero = () => {
     return (
         <div className="textoHero">
-            <p style={{ color: 'var(--warning)' }}>Melhores ofertas personalizadas</p>
+            <p style={{ color: 'var(--primary)' }}>Melhores ofertas personalizadas</p>
             <h1>Queima de estoque nike</h1>
             <p style={{ color: 'var(--dark-gray-2)' }}>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dolorum corporis rerum laudantium illo vel repudiandae, debitis minus, repellendus
@@ -123,13 +123,16 @@ const HomePage = () => {
                     <img src="https://github.com/digitalcollegebr/projeto-digital-store/blob/main/public/home-slide-5.jpeg?raw=true" alt=""
                         style={{ height: '250px' }}
                     />
-                    <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+                    <div style={{display:'flex',justifyContent:'center'}}>
+                         <div className="finaltxt" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
                         <h1>Air Jorda edição de colecionador</h1>
                         <p>
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo officia quasi ea quibusdam rerum! Cum dolores ipsum veritatis quas aspernatur aliquid iste voluptatum, suscipit ab optio sunt natus doloribus vitae.
                         </p>
                         <BtaoPadrao>Ver Oferta</BtaoPadrao>
                     </div>
+                    </div>
+                   
                 </div>
             </Section>
 

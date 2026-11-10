@@ -10,7 +10,7 @@ const ProductCard = ({ nome, image, price, priceDescout , productKey}) => {
         <Link to={`/produto/:id${productKey}`}
             state={info}
             key={productKey}
-            className="card" 
+            className="cardContainer" 
             style={{
             cursor:'pointer',
             display: 'flex',

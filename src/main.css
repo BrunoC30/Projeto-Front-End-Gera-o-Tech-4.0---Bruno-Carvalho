@@ -49,7 +49,7 @@ input[type="radio"] {
     flex-direction: column;
   }
   .textoHero{
-    font-size: 0.99rem;
+    font-size: 1.2rem;
   }
   .ofertaDestaque{
     flex-direction: column;
@@ -64,6 +64,17 @@ input[type="radio"] {
     visibility: visible !important;
     position: static !important;
   }
+
+  .finaltxt{
+    width: 80%;
+  }
+
+  /* CARD */
+  .cardContainer{
+    width: 150px !important;
+  }
+
+
 
   .destaques{
     align-items: center;
