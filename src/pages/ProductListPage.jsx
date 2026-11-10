@@ -1,4 +1,4 @@
-import ProductOptions from "../components/ProductOptions";
+import GroupSection from "../components/GroupSection";
 import ProductListing from "../components/ProductListing";
 import Section from "../components/Section";
 const ProductListPage = () => {
@@ -18,8 +18,8 @@ const ProductListPage = () => {
 
     return (
         <div style={{ minHeight: '140vh', display: 'flex' }} >
-            <div style={{ width: '70%', padding: '30px 0 0 30px' }} className="filtro">
-                <ProductOptions></ProductOptions>
+            <div style={{ width: '70%',height:'300px', padding: '30px 0 0 30px',position:'sticky',top:100}} className="filtro">
+                <GroupSection></GroupSection>
             </div>
             <div>
                 <div style={{ display: 'flex', justifyContent: 'flex-end', marginRight:'30px'}}>

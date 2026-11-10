@@ -40,7 +40,6 @@ const ProductViewPage = () => {
                  desc={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore consequuntur nostrum necessitatibus temporibus. Dolores, sapiente adipisci. Iusto incidunt dolor repellendus sed, rerum beatae. Alias quis ratione doloremque esse debitis minima!'}
                 ></BuyBox>
             </div>
-
         </div>
 
         {/* Segunda Parte */}

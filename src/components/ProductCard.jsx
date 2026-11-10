@@ -18,7 +18,8 @@ const ProductCard = ({ nome, image, price, priceDescout , productKey}) => {
             height: '320px',
             width: '230px',
             gap:'20px',
-            backgroundColor: 'var(--white)'
+            backgroundColor: 'var(--white)',
+            color:'#000'
         }}>
             <img src={image} alt="" style={{ width: '90%', objectFit: 'contain', alignSelf: 'center', paddingTop: '10px' }} />
             <div style={{display:'flex',flexDirection:'column',justifyContent:'flex-end',padding:'0 0 0 20px'}}>

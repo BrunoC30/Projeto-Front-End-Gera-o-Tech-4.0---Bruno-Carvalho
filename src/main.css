@@ -30,6 +30,17 @@
   font-weight: bold;
 }
 
+input[type="radio"]:checked {
+    border: 3px solid var(--primary);
+}
+
+input[type="radio"] {
+    border: 3px solid var(--dark-gray-2);
+}
+
+
+
+
 
 /* Responsividade */
 
@@ -72,3 +83,5 @@
       width: 90% !important;
     }
 }
+
+
