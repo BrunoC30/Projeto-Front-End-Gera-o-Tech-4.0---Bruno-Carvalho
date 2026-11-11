@@ -37,7 +37,7 @@ export const HeaderMobile = ({ executarFunc }) => {
                 ><p>☰</p></button>
                 <Logo tipo='header' />
 
-                <img src="./src/assets/search.svg" alt=""
+                <img src="https://raw.githubusercontent.com/BrunoC30/Projeto-Front-End-Gera-o-Tech-4.0---Bruno-Carvalho/dfa5bd351f542989ee305c47334b932557c88259/src/assets/Search.svg" alt=""
                     style={{
                         height: '20px', width: '40px'
                     }}
@@ -45,7 +45,7 @@ export const HeaderMobile = ({ executarFunc }) => {
 
 
 
-                <img src="./src/assets/mini-cart.svg" alt="" />
+                <img src="https://raw.githubusercontent.com/BrunoC30/Projeto-Front-End-Gera-o-Tech-4.0---Bruno-Carvalho/dfa5bd351f542989ee305c47334b932557c88259/src/assets/mini-cart.svg" alt="" />
 
             </div>
 
@@ -107,7 +107,7 @@ const Header = () => {
                         <BtaoPadrao>Entrar</BtaoPadrao>
                     </div>
 
-                    <img src=".https://raw.githubusercontent.com/BrunoC30/Projeto-Front-End-Gera-o-Tech-4.0---Bruno-Carvalho/dfa5bd351f542989ee305c47334b932557c88259/src/assets/mini-cart.svg" alt="" />
+                    <img src="https://raw.githubusercontent.com/BrunoC30/Projeto-Front-End-Gera-o-Tech-4.0---Bruno-Carvalho/dfa5bd351f542989ee305c47334b932557c88259/src/assets/mini-cart.svg" alt="" />
 
                 </div>
 
