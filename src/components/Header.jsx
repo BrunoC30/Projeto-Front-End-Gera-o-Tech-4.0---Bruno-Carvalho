@@ -87,7 +87,7 @@ const Header = () => {
                                 paddingLeft: '10px', flex: 1
                             }}
                         />
-                        <img src="./src/assets/search.svg" alt=""
+                        <img src="https://raw.githubusercontent.com/BrunoC30/Projeto-Front-End-Gera-o-Tech-4.0---Bruno-Carvalho/dfa5bd351f542989ee305c47334b932557c88259/src/assets/Search.svg" alt=""
                             style={{
                                 position: 'absolute', right: '10px', bottom: '30%',
                                 height: '20px', width: '40px'
@@ -107,7 +107,7 @@ const Header = () => {
                         <BtaoPadrao>Entrar</BtaoPadrao>
                     </div>
 
-                    <img src="./src/assets/mini-cart.svg" alt="" />
+                    <img src=".https://raw.githubusercontent.com/BrunoC30/Projeto-Front-End-Gera-o-Tech-4.0---Bruno-Carvalho/dfa5bd351f542989ee305c47334b932557c88259/src/assets/mini-cart.svg" alt="" />
 
                 </div>
 

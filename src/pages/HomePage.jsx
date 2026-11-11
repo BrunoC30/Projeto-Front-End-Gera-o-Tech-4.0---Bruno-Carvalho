@@ -22,11 +22,11 @@ const TextHero = () => {
 const HomePage = () => {
 
     const imgsDestaque = [
-        './src/assets/shirts.svg',
-        './src/assets/pants.svg',
-        './src/assets/pants.svg',
-        './src/assets/headphones.svg',
-        './src/assets/shoes.svg'
+        'https://raw.githubusercontent.com/BrunoC30/Projeto-Front-End-Gera-o-Tech-4.0---Bruno-Carvalho/dfa5bd351f542989ee305c47334b932557c88259/src/assets/shirts.svg',
+        'https://raw.githubusercontent.com/BrunoC30/Projeto-Front-End-Gera-o-Tech-4.0---Bruno-Carvalho/dfa5bd351f542989ee305c47334b932557c88259/src/assets/pants.svg',
+        'https://raw.githubusercontent.com/BrunoC30/Projeto-Front-End-Gera-o-Tech-4.0---Bruno-Carvalho/dfa5bd351f542989ee305c47334b932557c88259/src/assets/pants.svg',
+        'https://raw.githubusercontent.com/BrunoC30/Projeto-Front-End-Gera-o-Tech-4.0---Bruno-Carvalho/dfa5bd351f542989ee305c47334b932557c88259/src/assets/headphones.svg',
+        'https://raw.githubusercontent.com/BrunoC30/Projeto-Front-End-Gera-o-Tech-4.0---Bruno-Carvalho/dfa5bd351f542989ee305c47334b932557c88259/src/assets/shoes.svg'
     ]
 
     const Cta = styled.div`
